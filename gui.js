@@ -650,7 +650,7 @@ details summary ~ * {
         };
     };
     function toggleHidden(e) {
-        (e.code || q.code) == ('KeyE' || 'KeyQ') && (GUI.hidden = !GUI.hidden)
+        (e.code) == ('KeyE') && (GUI.hidden = !GUI.hidden)
     };
     };
     function toggleHidden(q) {
