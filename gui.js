@@ -649,8 +649,8 @@ details summary ~ * {
             }
         };
     };
-    function toggleHidden(q) {
-        q.code == 'KeyQ' && (GUI.hidden = !GUI.hidden)
+    function toggleHidden(space) {
+        space.code == 'KeySpace' && (GUI.hidden = !GUI.hidden)
     };
     addEventListener('keypress', toggleHidden);
 })()
