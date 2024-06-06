@@ -652,5 +652,9 @@ details summary ~ * {
     function toggleHidden(e) {
         (e.code || q.code) == ('KeyE' || 'KeyQ') && (GUI.hidden = !GUI.hidden)
     };
+    };
+    function toggleHidden(q) {
+        (q.code) == ('KeyQ') && (GUI.hidden = !GUI.hidden)
+    };
     addEventListener('keypress', toggleHidden);
 })()
